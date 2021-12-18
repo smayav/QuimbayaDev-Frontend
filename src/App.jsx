@@ -35,7 +35,7 @@ import { DetalleAvancesLider } from "./pages/Avances/DetalleAvancesLider";
 //import { GestionAvances } from './pages/GestionAvances';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://servidor-gql-quimbayadev4.herokuapp.com/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
