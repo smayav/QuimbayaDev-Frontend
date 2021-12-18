@@ -557,6 +557,13 @@ tbody tr td{
   padding: 3px;
 }
 
+.logueo1{
+  font-size: 17px;
+  color: var(--dark-bg);
+  margin: 7px;
+  padding-block: 5px;
+}
+
 .editar-perfil span  {
   background-color: var(--grey-bg);
   color: var(--light-bg);
@@ -594,9 +601,10 @@ tbody tr td{
 
 .logueo button {
   background-color: var(--light-bg);
+  margin-left: 7px;
   font-size: 10px;
   margin-block: 8px;
-  padding: 3px;
+  padding: 7px;
   border-radius: .3em;
   color: var(--blue-bg);
   cursor: pointer;
